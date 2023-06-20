@@ -29,10 +29,13 @@
       <ProfileAboutSection />
     </div>
   </div>
+  <SongSection />
 </template>
 
 <script setup>
 import ProfileInfoSection from "@/components/partials/profile/ProfileInfoSection";
 import ProfileAboutSection from "@/components/partials/profile/ProfileAboutSection";
 import RouterLinkButton from "@/components/global/RouterLinkButton";
+import SongSection from "@/components/partials/profile/SongSection";
+
 </script>

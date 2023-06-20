@@ -33,7 +33,7 @@
   <div id="videoDarkOverlay"></div>
 
   <video autoplay muted loop id="myVideo">
-    <source src="../../public/concert.mp4" type="video/mp4">
+    <source src="../../../public/concert.mp4" type="video/mp4">
   </video>
 </template>
 
