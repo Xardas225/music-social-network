@@ -9,13 +9,13 @@
 </template>
 
 <script setup>
-import { defineProps, toRefs } from 'vue';
+import { defineProps, toRefs } from "vue";
 
 const props = defineProps({
-  btnText: String, 
-  url: String, 
-  color: String
-})
+  btnText: String,
+  url: { type: String, default: "" },
+  color: String,
+});
 
-const { btnText, url, color } = toRefs(props)
+const { btnText, url, color } = toRefs(props);
 </script>
