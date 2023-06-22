@@ -9,12 +9,12 @@
             class="ml-2"
             btnText="Delete Youtube Video"
             color="red"
-            url="account/delete-youtube-video"
+            url="delete-youtube-video"
           />
           <RouterLinkButton
             btnText="Add Youtube Video"
             color="green"
-            url="account/add-youtube-video"
+            url="add-youtube-video"
           />
         </div>
       </div>

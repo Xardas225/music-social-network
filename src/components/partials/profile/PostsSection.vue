@@ -9,7 +9,7 @@
             class="ml-2"
             btnText="Create New Post"
             color="green"
-            url="account/create-post"
+            url="create-post"
           />
         </div>
       </div>
@@ -45,7 +45,7 @@
             </p>
             <div class="mt-2 flex items-center justify-end">
               <router-link
-                to=""
+                to="edit-post"
                 class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-bold py-1 px-2 rounded-full"
               >
                 Edit Post

@@ -9,12 +9,12 @@
             class="ml-2"
             btnText="Delete song"
             color="red"
-            url="account/delete-song"
+            url="delete-song"
           />
           <RouterLinkButton
             btnText="Add song"
             color="green"
-            url="account/add-song"
+            url="add-song"
           />
         </div>
       </div>

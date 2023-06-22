@@ -18,7 +18,7 @@
             class="w-full text-white text-center text-lg mt-4"
             btnText="Profile"
             color="green"
-            url="account/profile"
+            url="profile"
           />
           <RouterLinkButton
             @click="open = !open"
