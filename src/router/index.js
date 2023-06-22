@@ -11,6 +11,7 @@ import AddYoutubeVideo from "@/views/account/AddYoutubeVideo.vue";
 import DeleteYoutubeVideo from "@/views/account/DeleteYoutubeVideo.vue";
 import CreatePost from "@/views/account/CreatePost.vue";
 import EditPost from "@/views/account/EditPost.vue";
+import PostsSection from "@/views/account/PostsSection.vue";
 
 const routes = [
   {
@@ -33,46 +34,51 @@ const routes = [
     component: AccountView,
     children: [
       {
-        path: 'profile',
-        name: 'profile',
-        component: ProfileSection
+        path: "profile",
+        name: "profile",
+        component: ProfileSection,
       },
       {
-        path: 'edit-profile',
-        name: 'editProfile',
-        component: EditProfile
+        path: "edit-profile",
+        name: "editProfile",
+        component: EditProfile,
       },
       {
-        path: 'add-song',
-        name: 'addSong',
-        component: AddSong
+        path: "add-song",
+        name: "addSong",
+        component: AddSong,
       },
       {
-        path: 'delete-song',
-        name: 'deleteSong',
-        component: DeleteSong
+        path: "delete-song",
+        name: "deleteSong",
+        component: DeleteSong,
       },
       {
-        path: 'add-youtube-video',
-        name: 'addYoutubeVideo',
-        component: AddYoutubeVideo
+        path: "add-youtube-video",
+        name: "addYoutubeVideo",
+        component: AddYoutubeVideo,
       },
       {
-        path: 'delete-youtube-video',
-        name: 'deleteYoutubeVideo',
-        component: DeleteYoutubeVideo
+        path: "delete-youtube-video",
+        name: "deleteYoutubeVideo",
+        component: DeleteYoutubeVideo,
       },
       {
-        path: 'create-post',
-        name: 'createPost',
-        component: CreatePost
+        path: "create-post",
+        name: "createPost",
+        component: CreatePost,
       },
       {
-        path: 'edit-post',
-        name: 'editPost',
-        component: EditPost
-      }
-    ]
+        path: "edit-post",
+        name: "editPost",
+        component: EditPost,
+      },
+      {
+        path: "posts",
+        name: "postsSection",
+        component: PostsSection,
+      },
+    ],
   },
 ];
 

@@ -14,19 +14,27 @@
       <div class="bg-black absolute w-full h-full opacity-75"></div>
       <div class="my-auto fixed border-white w-80 pt-16">
         <p class="text-2xl text-center text-white font-bold">Menu</p>
-          <RouterLinkButton
-            class="w-full text-white text-center text-lg mt-4"
-            btnText="Profile"
-            color="green"
-            url="profile"
-          />
-          <RouterLinkButton
-            @click="open = !open"
-            class="w-full text-white text-center text-lg mt-4"
-            btnText="Close"
-            color="red"
-            url=""
-          />
+        <RouterLinkButton
+          @click="open = !open"
+          class="w-full text-white text-center text-lg mt-4"
+          btnText="Profile"
+          color="green"
+          url="profile"
+        />
+        <RouterLinkButton
+          @click="open = !open"
+          class="w-full text-white text-center text-lg mt-4"
+          btnText="Posts"
+          color="green"
+          url="posts"
+        />
+        <RouterLinkButton
+          @click="open = !open"
+          class="w-full text-white text-center text-lg mt-4"
+          btnText="Close"
+          color="red"
+          url=""
+        />
       </div>
     </div>
   </div>
