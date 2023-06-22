@@ -1,6 +1,6 @@
 <template>
   <div id="AddSong" class="container mx-auto max-w-4xl px-6">
-    <div class="text-gray-900 text-xl">Edit Profile</div>
+    <div class="text-gray-900 text-xl">Add Song</div>
     <div class="bg-green-500 w-full h-1"></div>
 
     <div class="flex flex-wrap mt-4 mb-6">
@@ -26,7 +26,6 @@
         type="file"
         id="image"
         ref="fileInput"
-        @change="getUploadedImage"
       />
     </div>
 
