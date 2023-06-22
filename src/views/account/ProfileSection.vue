@@ -21,7 +21,7 @@
           <RouterLinkButton 
             btnText="Edit Profile"
             color="green"
-            url="account/edit-profile"
+            url="edit-profile"
           />
         </div>
       </div>
